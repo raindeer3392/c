@@ -6,6 +6,9 @@ int main(void) {
     printf("현재의 x는 %d 입니다. \n", x);
     x++;
     printf("현재의 x는 %d 입니다. \n", x);
+    printf("현재의 x는 %d 입니다. \n", x--);
+    printf("현재의 x는 %d 입니다. \n", x);
+    printf("현재의 x는 %d 입니다. \n", --x);
     return 0;
 
 }
